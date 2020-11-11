@@ -52,6 +52,10 @@ img{
 	width: 100%;
 }
 
+img:hover{ 
+	transform: scale(0.9, 0.9); 
+}
+
 ul{
 	list-style-type: none;
 	line-height: 2;
@@ -89,4 +93,8 @@ button{
 	padding: 2px 20px;
 	border-radius: 3px;
 	cursor: pointer;
+}
+
+.divas a:hover{
+	color: #99ffff85;
 }
